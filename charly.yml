@@ -177,11 +177,11 @@ notebook-openrouter-skill:
             # charly.yml
             jupyter-ml-notebook:
               candy:
-                - jupyter-ml
-                - notebook-templates
-                - notebook-finetuning
-                - notebook-ollama
-                - notebook-llm-on-supercomputers
+                - '@github.com/opencharly/pod-jupyter-ml:v2026.238.2131'
+                - '@github.com/opencharly/layer-notebook-templates:v2026.237.557'
+                - '@github.com/opencharly/layer-notebook-finetuning:v2026.237.936'
+                - '@github.com/opencharly/layer-notebook-ollama:v2026.237.939'
+                - '@github.com/opencharly/layer-notebook-llm-on-supercomputers:v2026.237.556'
                 - notebook-openrouter
                 # ... other candies
             ```
