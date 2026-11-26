@@ -122,9 +122,6 @@ charly start jupyter-ml-notebook
 # Open http://localhost:8888 -> navigate to openrouter/
 ```
 
-## Used In Boxes
-
-
 ## Related Skills
 
 - `/charly-image:layer` — data field documentation, env_require/env_accept field documentation
