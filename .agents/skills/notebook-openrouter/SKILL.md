@@ -124,18 +124,12 @@ charly start jupyter-ml-notebook
 
 ## Used In Boxes
 
-- `/charly-jupyter:jupyter-ml-notebook`
 
 ## Related Skills
 
 - `/charly-image:layer` — data field documentation, env_require/env_accept field documentation
 - `/charly-core:charly-config` — data provisioning and env_require warning during `charly config` setup
 - `/charly-core:deploy` — volume backing configuration
-- `/charly-jupyter:notebook-ollama` — sibling data candy pattern (Ollama integration notebooks)
-- `/charly-jupyter:notebook-finetuning` — sibling data candy pattern (Unsloth fine-tuning notebooks)
-- `/charly-jupyter:notebook-templates` — sibling data candy pattern (starter notebooks)
-- `/charly-jupyter:notebook-llm-on-supercomputers` — sibling data candy pattern (TU Wien course notebooks)
-- `/charly-jupyter:jupyter-ml-notebook` — the box that includes this candy
 
 ## When to Use This Skill
 
