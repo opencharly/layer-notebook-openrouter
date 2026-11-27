@@ -49,7 +49,7 @@ At deploy time, `charly config` copies the staged data into the workspace volume
 
 The `env_require` declaration is stored as an OCI label (`ai.opencharly.env_require`). At `charly config` time, if `OPENROUTER_API_KEY` is not present in the resolved environment, a warning is printed:
 ```
-Warning: jupyter-ml-notebook requires OPENROUTER_API_KEY (API key for OpenRouter LLM inference) — not set
+Warning: <box> requires OPENROUTER_API_KEY (API key for OpenRouter LLM inference) — not set
 ```
 
 This is the first candy in the project to use the `env_require` feature.
@@ -91,7 +91,7 @@ The `OPENROUTER_API_KEY` must be injected into the container environment:
 
 ```bash
 # Via charly config (persisted in quadlet)
-charly config jupyter-ml-notebook -e OPENROUTER_API_KEY=sk-or-v1-...
+charly config <box> -e OPENROUTER_API_KEY=sk-or-v1-...
 
 # Via workspace .env file
 echo "OPENROUTER_API_KEY=sk-or-v1-..." >> ~/project/.env
