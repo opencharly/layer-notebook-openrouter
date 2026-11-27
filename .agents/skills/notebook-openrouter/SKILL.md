@@ -102,18 +102,7 @@ charly secrets gpg set OPENROUTER_API_KEY sk-or-v1-...
 
 ## Usage
 
-```yaml
-# charly.yml
-jupyter-ml-notebook:
-  candy:
-    - jupyter-ml
-    - notebook-templates
-    - notebook-finetuning
-    - notebook-ollama
-    - notebook-llm-on-supercomputers
-    - notebook-openrouter
-    # ... other candies
-```
+Add `notebook-openrouter` to a Jupyter box's `candy:` list; with an `OPENROUTER_API_KEY` supplied it provides the `/openrouter/` notebook set.
 
 
 ## Related Skills
