@@ -115,12 +115,6 @@ jupyter-ml-notebook:
     # ... other candies
 ```
 
-```bash
-# Deploy with API key
-charly config jupyter-ml-notebook -e OPENROUTER_API_KEY=sk-or-v1-...
-charly start jupyter-ml-notebook
-# Open http://localhost:8888 -> navigate to openrouter/
-```
 
 ## Related Skills
 
